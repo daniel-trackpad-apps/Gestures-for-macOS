@@ -6,6 +6,12 @@ Gestures for macOS is a small native Mac app that lets you swipe, pinch, tap or 
 
 Requires macOS 14 or later and a trackpad (Magic Mouse is not supported).
 
+## Screenshots
+
+![Main window](docs/main-window.png)
+![Add an app](docs/add-app.png)
+![Add a gesture](docs/add-mapping.png)
+
 ## Features
 
 - **Many gestures.** Swipes with two, three or four fingers, pinch in and out, rotate, taps and holds with several fingers, slides along the trackpad edge, and corner taps. You can also record a gesture: perform it on the trackpad and the app recognizes it.
@@ -90,9 +96,3 @@ The app never connects to the internet. Settings and the log are stored only on 
 ## License
 
 MIT. See [LICENSE](LICENSE).
-
-## Screenshots
-
-![Main window](docs/main-window.png)
-![Add an app](docs/add-app.png)
-![Add a gesture](docs/add-mapping.png)
