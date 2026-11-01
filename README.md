@@ -93,6 +93,10 @@ The app never connects to the internet. Settings and the log are stored only on 
 2. Delete **Gestures for macOS** from the Applications folder.
 3. Optionally delete `~/Library/Application Support/GesturesForMacOS` and remove the app from the permission lists in System Settings.
 
+## Support
+
+Gestures for macOS is free and open source. If it saves you time, you can [buy me a coffee on Ko-fi](https://ko-fi.com/daniel553).
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
