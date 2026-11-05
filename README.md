@@ -2,7 +2,7 @@
 
 Run actions with trackpad gestures, and choose a different action for each app.
 
-<a href="https://macnative.io/apps/gestures-for-macos?utm_source=macnative-badge&utm_medium=referral" target="_blank" rel="noopener"><img src="https://macnative.io/badge?kind=listed&theme=default&slug=gestures-for-macos&small=1" alt="Listed on MacNative" width="168" height="44" /></a>
+<a href="https://macnative.io/apps/gestures-for-macos?utm_source=macnative-badge&utm_medium=referral" target="_blank" rel="noopener"><img src="https://macnative.io/badge?kind=listed&theme=default&slug=gestures-for-macos" alt="Listed on MacNative" width="212" height="58" /></a>
 
 Gestures for macOS is a small native Mac app that lets you swipe, pinch, tap or hold on the trackpad to trigger actions. What happens depends on the app in front: the same gesture can go Back in Finder and switch tabs in Safari, and you decide which. The app does not replace the gestures macOS already has. It adds your own on top of them.
 
@@ -102,4 +102,3 @@ Gestures for macOS is free and open source. If it saves you time, you can [buy m
 ## License
 
 MIT. See [LICENSE](LICENSE).
-
