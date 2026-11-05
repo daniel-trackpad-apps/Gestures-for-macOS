@@ -102,3 +102,4 @@ Gestures for macOS is free and open source. If it saves you time, you can [buy m
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
