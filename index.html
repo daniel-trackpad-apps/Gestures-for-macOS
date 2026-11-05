@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gestures for macOS</title>
+<meta name="description" content="Run actions with trackpad gestures, and choose a different action for each app. A small, native, open-source Mac app.">
+<style>
+  :root{--bg:#f6f6f8;--fg:#1d1d1f;--muted:#5f5f66;--card:#fff;--line:#e4e4ea;--accent:#4f46e5}
+  @media (prefers-color-scheme:dark){:root{--bg:#121214;--fg:#f2f2f4;--muted:#a0a0aa;--card:#1c1c20;--line:#2c2c33;--accent:#8b85ff}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text",Helvetica,Arial,sans-serif}
+  main{max-width:860px;margin:0 auto;padding:56px 20px 72px}
+  h1{font-size:40px;line-height:1.1;margin:0 0 12px;letter-spacing:-.02em}
+  .lead{font-size:20px;color:var(--muted);margin:0 0 28px}
+  .actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:40px}
+  .btn{display:inline-block;padding:10px 18px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+  .btn.secondary{background:transparent;color:var(--fg);border:1px solid var(--line)}
+  .badge img{display:block;height:58px;width:auto}
+  .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:0 0 40px}
+  .shots img{width:100%;height:auto;border-radius:12px;border:1px solid var(--line);background:var(--card)}
+  h2{font-size:22px;margin:36px 0 12px}
+  ul{padding-left:20px;margin:0}
+  li{margin:6px 0}
+  .note{color:var(--muted);font-size:14px}
+  footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+  <h1>Gestures for macOS</h1>
+  <p class="lead">Run actions with trackpad gestures, and choose a different action for each app.</p>
+
+  <div class="actions">
+    <a class="btn" href="https://github.com/daniel-trackpad-apps/Gestures-for-macOS/releases">Download (.dmg)</a>
+    <a class="btn secondary" href="https://github.com/daniel-trackpad-apps/Gestures-for-macOS">Source on GitHub</a>
+    <a class="badge" href="https://macnative.io/apps/gestures-for-macos?utm_source=macnative-badge&utm_medium=referral" target="_blank" rel="noopener"><img src="https://macnative.io/badge?kind=listed&theme=default&slug=gestures-for-macos" alt="Listed on MacNative" width="212" height="58"></a>
+  </div>
+
+  <div class="shots">
+    <img src="main-window.png" alt="Main window">
+    <img src="add-app.png" alt="Add an app">
+    <img src="add-mapping.png" alt="Add a gesture">
+  </div>
+
+  <p>Gestures for macOS is a small native Mac app that lets you swipe, pinch, tap or hold on the trackpad to trigger actions. What happens depends on the app in front: the same gesture can go Back in Finder and switch tabs in Safari, and you decide which. The app does not replace the gestures macOS already has. It adds your own on top of them.</p>
+  <p class="note">Requires macOS 14 or later and a trackpad (Magic Mouse is not supported).</p>
+
+  <h2>Features</h2>
+  <ul>
+    <li><strong>Many gestures.</strong> Swipes with two, three or four fingers, pinch, rotate, multi-finger taps and holds, edge slides and corner taps. You can also record a gesture and the app recognizes it.</li>
+    <li><strong>Simple actions.</strong> Back, Forward, Close Window, New Window, New Tab, Tab Left/Right, Reload, Copy and Paste, any menu item of the app in front, or any keyboard shortcut.</li>
+    <li><strong>Per-app or global.</strong> Set a gesture for all apps or only for one. The app-specific one wins.</li>
+    <li><strong>Light on resources.</strong> Nothing runs while you are not using a gesture.</li>
+    <li><strong>Native look.</strong> SwiftUI, glass materials, light and dark mode.</li>
+    <li><strong>Private.</strong> No network access, no account, no data collection.</li>
+  </ul>
+
+  <h2>Examples</h2>
+  <ul>
+    <li><strong>In Safari:</strong> two-finger swipe left or right switches tabs.</li>
+    <li><strong>In Finder:</strong> two-finger swipe goes back or forward.</li>
+    <li><strong>In every app:</strong> three-finger pinch closes the window; four-finger tap opens a new tab or window.</li>
+  </ul>
+
+  <h2>Install</h2>
+  <p>Download the latest <code>.dmg</code> from the <a href="https://github.com/daniel-trackpad-apps/Gestures-for-macOS/releases">Releases</a> page, open it, and drag <strong>Gestures for macOS</strong> to <strong>Applications</strong>. The app is not notarized, so on first launch go to <strong>System Settings → Privacy &amp; Security</strong> and click <strong>Open Anyway</strong>. It then asks for <strong>Accessibility</strong> and <strong>Input Monitoring</strong> permissions. Full instructions are in the <a href="https://github.com/daniel-trackpad-apps/Gestures-for-macOS#install">README</a>.</p>
+
+  <footer>
+    Free and open source (MIT). If it saves you time, you can <a href="https://ko-fi.com/daniel553">buy me a coffee on Ko-fi</a>.
+  </footer>
+</main>
+</body>
+</html>
